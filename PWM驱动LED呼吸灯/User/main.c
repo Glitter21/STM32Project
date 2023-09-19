@@ -14,12 +14,12 @@ int main(void)
 	{
 		for(i=0;i<=100;i++)
 		{
-			PWM_SetCompare1(i);
+			PWM_SetComparel(i);
 			Delay_ms(10);
 		}
 		for(i=100;i>0;i--)
 		{
-			PWM_SetCompare1(i);
+			PWM_SetComparel(i);
 			Delay_ms(10);
 		}
 	}
